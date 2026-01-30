@@ -5,7 +5,7 @@ const container = document.querySelector("[data-container]");
 const generateRandomNumber = () => Math.ceil(Math.random() * 6);
 
 const BlueWinnerText = `The winner is <span style="color: #449fcc;">Blue</span>`
-const RedWinnerText = `The winner is <span style="color: #E98888;;">Red</span>`
+const RedWinnerText = `The winner is <span style="color: #E98888;">Red</span>`
 
  if (container.innerHTML === "") {
         gameInfo.innerHTML = `<span>Click on the button below</span>`
